@@ -1,0 +1,52 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+input {
+  padding: 15px 7px;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 9px;
+}
+textarea {
+  width: 400px;
+  resize: none;
+  border: 1px solid black;
+  border-radius: 9px;
+}
+button {
+  padding: 10px 9px;
+  background-color: red;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.navbar{
+  background-color: red;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  
+
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+.head{
+  
+  text-align: center;
+}
+
+
+.logout{
+  text-align: center;
+}
